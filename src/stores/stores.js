@@ -22,7 +22,8 @@ export const tableData = writable([
             [13, 5.1181102],
             [14, 5.511811],
             [15, 5.511811]
-        ]
+        ],
+        units: ["Meters","Kilometers","Centimeters","Millimeters","Nanometers","Micrometers","Miles","Nautical miles","Inches","Yards","Feet"],
     },
     
     {
@@ -46,7 +47,8 @@ export const tableData = writable([
             [13, 5.1181102],
             [14, 5.511811],
             [15, 5.511811]
-        ]
+        ],
+        units: ["Meters","Kilometers","Centimeters","Millimeters","Nanometers","Micrometers","Miles","Nautical miles","Inches","Yards","Feet"],
     },
 
     {
@@ -70,7 +72,8 @@ export const tableData = writable([
             [13, 5.1181102],
             [14, 5.511811],
             [15, 5.511811]
-        ]
+        ],
+        units: ["Meters","Kilometers","Centimeters","Millimeters","Nanometers","Micrometers","Miles","Nautical miles","Inches","Yards","Feet"],
     },
 
     {
@@ -94,7 +97,8 @@ export const tableData = writable([
             [13, 5.1181102],
             [14, 5.511811],
             [15, 5.511811]
-        ]
+        ],
+        units: ["Meters","Kilometers","Centimeters","Millimeters","Nanometers","Micrometers","Miles","Nautical miles","Inches","Yards","Feet"],
     },
 
     {
@@ -118,7 +122,8 @@ export const tableData = writable([
             [13, 5.1181102],
             [14, 5.511811],
             [15, 5.511811]
-        ]
+        ],
+        units: ["Meters","Kilometers","Centimeters","Millimeters","Nanometers","Micrometers","Miles","Nautical miles","Inches","Yards","Feet"],
     }
 ]);
 

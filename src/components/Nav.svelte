@@ -48,8 +48,13 @@
     li {
         font-size: 1.5vw;
     }
+    li:hover {
+        background-color: #eeeeee;
+        border-radius: 10px;
+    }
     a {
         text-decoration: none;
+        color: black;
     }
     @media screen and (min-width: 769px)
     {
@@ -58,9 +63,13 @@
             list-style: none;
             flex-grow: 1;
             justify-content: space-around;
+            margin: 0;
         }
         nav button {
             display: none;
+        }
+        li {
+            padding: 1%;
         }
     }
 </style>

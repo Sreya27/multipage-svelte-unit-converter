@@ -42,7 +42,7 @@
     text-align: left; 
     }
     table {
-        min-width: 60vw;
+        width: 10%;
     }
 
     @media screen and (min-width: 769px) {
