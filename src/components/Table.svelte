@@ -32,16 +32,17 @@
         background: #eee; 
     }
     th { 
-    background: #333; 
-    color: white; 
-    font-weight: bold;
+        background: #333; 
+        color: white; 
+        font-weight: bold;
     }
     td, th { 
-    padding: 12px 20px; 
-    border: 1px solid #ccc; 
-    text-align: left; 
+        padding: 12px 20px; 
+        border: 1px solid #ccc; 
+        text-align: left; 
     }
     table {
+        min-width: 50vw;
         width: 10%;
     }
 
