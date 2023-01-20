@@ -1,5 +1,4 @@
 <script>
-
     import {tableData} from "../stores/stores";
     let table = $tableData;
     
@@ -70,6 +69,9 @@
         }
         li {
             padding: 1%;
+        }
+        .navbar {
+            padding: 2%;
         }
     }
 </style>

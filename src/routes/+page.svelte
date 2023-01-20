@@ -21,7 +21,7 @@
     @media screen and (min-width: 769px)
     {
         .display-body {
-            padding: 2% 0% 0% 0%;
+            padding: 2%;
             flex-direction: row;
             align-items: flex-start;
         }
