@@ -18,6 +18,7 @@
 </script>
 
 <div class="input-container">
+    # Added for now just to check getting numbers or not will delete later
     <h1>This is {number1} {number2}</h1>
     <h2>{inputHeading}</h2>
     <div class="input-card">
