@@ -1,6 +1,5 @@
 <script>
     import {tableData} from "../stores/stores";
-    import NavList from "./NavList.svelte";
 
     const table = $tableData;
     const inputHeading = table[0].name + " " + "Converter";

@@ -73,7 +73,7 @@
         padding: 2%;
     }
     li {
-        font-size: 4.5vw;
+        font-size: 3vw;
     }
     li:hover {
         background-color: #eeeeee;
