@@ -1,16 +1,30 @@
 <script>
     import {tableData} from "../stores/stores";
+    import NavList from "./NavList.svelte";
 
     const table = $tableData;
     const inputHeading = table[0].name + " " + "Converter";
+
+    let number1 = 0;
+    let number2 = 0;
+
+    const input1 = (num) => {
+        number1 = num.target.value;
+    }
+
+    const input2 = (num) => {
+        number2 = num.target.value;
+    }
 </script>
 
 <div class="input-container">
+    # Added for now just to check getting numbers or not will delete later
+    <h1>This is {number1} {number2}</h1>
     <h2>{inputHeading}</h2>
     <div class="input-card">
         <div class="input-card-input">
             <form class="input-form">
-                <input type="number">
+                <input type="number" on:input={input1}>
                 <div class="dropdown-menu">
                     <div class="dropdown-header">
                         <p>{table[0].units[0]}</p>
@@ -28,7 +42,7 @@
         </div>
         <div class="input-card-output">
             <form class="output-form">
-                <input type="number">
+                <input type="number" on:input={input2}>
                 <div class="dropdown-menu">
                     <div class="dropdown-header">
                         <p>{table[0].units[0]}</p>
