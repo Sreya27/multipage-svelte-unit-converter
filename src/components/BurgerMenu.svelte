@@ -71,7 +71,18 @@
         right: 0%;
         z-index: 1;
         padding: 2%;
-    }   
+    }
+    li {
+        font-size: 4.5vw;
+    }
+    li:hover {
+        background-color: #eeeeee;
+        border-radius: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
 
     @media screen and (min-width: 769px) {
         .burger-menu {
