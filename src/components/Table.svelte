@@ -1,17 +1,20 @@
 <script>
     import {tableData} from "../stores/stores";
+
+    const table = $tableData;
+    const tableItem = table[0];
 </script>
 
 <div class="conversion-table">
     <table>
         <thead>
             <tr>
-                <th>{$tableData[0].from}</th>
-                <th>{$tableData[0].to}</th>
+                <th>{tableItem.from}</th>
+                <th>{tableItem.to}</th>
             </tr>
         </thead>
         <tbody>
-            {#each $tableData[0].data as [fromVal, toVal]}
+            {#each tableItem.data as [fromVal, toVal]}
                 <tr>
                     <td>{fromVal}</td>
                     <td>{toVal}</td>

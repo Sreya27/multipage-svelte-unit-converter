@@ -2,36 +2,26 @@
     import {tableData} from "../stores/stores";
 
     const table = $tableData;
-    const inputHeading = table[0].name + " " + "Converter";
+    const tableItem = table[0];
 
-    let number1 = 0;
-    let number2 = 0;
+    const inputHeading = tableItem.name + " " + "Converter";
 
-    const input1 = (num) => {
-        number1 = num.target.value;
-    }
-
-    const input2 = (num) => {
-        number2 = num.target.value;
-    }
 </script>
 
 <div class="input-container">
-    # Added for now just to check getting numbers or not will delete later
-    <h1>This is {number1} {number2}</h1>
     <h2>{inputHeading}</h2>
     <div class="input-card">
         <div class="input-card-input">
             <form class="input-form">
-                <input type="number" on:input={input1}>
+                <input type="number">
                 <div class="dropdown-menu">
                     <div class="dropdown-header">
-                        <p>{table[0].units[0]}</p>
+                        <p>{tableItem.units[0]}</p>
                         <i>&#8964;</i>
                     </div>
                     <div class="dropdown-list">
                         <ul class="input-dropdown">
-                            {#each table[0].units as unit}
+                            {#each tableItem.units as unit}
                                 <li id="dropdown-item">{unit}</li>
                             {/each}
                         </ul>
@@ -41,15 +31,15 @@
         </div>
         <div class="input-card-output">
             <form class="output-form">
-                <input type="number" on:input={input2}>
+                <input type="number">
                 <div class="dropdown-menu">
                     <div class="dropdown-header">
-                        <p>{table[0].units[0]}</p>
+                        <p>{tableItem.units[0]}</p>
                         <i>&#8964;</i>
                     </div>
                     <div class="dropdown-list">
                         <ul class="output-dropdown">
-                            {#each table[0].units as unit}
+                            {#each tableItem.units as unit}
                                 <li id="dropdown-item">{unit}</li>
                             {/each}
                         </ul>

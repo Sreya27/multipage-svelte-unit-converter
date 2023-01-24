@@ -2,6 +2,7 @@
 	import Input from "../components/Input.svelte";
     import Nav from "../components/Nav.svelte";
     import Table from "../components/Table.svelte";
+
 </script>
 
 <Nav/>
